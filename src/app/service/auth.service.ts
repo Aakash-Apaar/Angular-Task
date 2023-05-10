@@ -9,7 +9,7 @@ export class AuthService {
   dataList: Array<any> = [];
 
   constructor(private http:HttpClient) { }
-  apiurl='https://crudcrud.com/api/f842a71464cf4dc7bd82e55a743f51f9/user';
+  apiurl='https://crudcrud.com/api/7a57a9dc8c0b4637876bd814e6faa274/user';
 
 GetAll(){
   return this.http.get(this.apiurl);
